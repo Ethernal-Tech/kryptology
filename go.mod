@@ -1,4 +1,4 @@
-module github.com/Ethernal-Tech/kryptology/kryptology
+module github.com/Ethernal-Tech/kryptology
 
 go 1.22
 
