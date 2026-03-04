@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/btcsuite/btcd/btcec"
+	"github.com/btcsuite/btcd/btcec/v2"
 
 	"github.com/coinbase/kryptology/internal"
 	"github.com/coinbase/kryptology/pkg/core"
