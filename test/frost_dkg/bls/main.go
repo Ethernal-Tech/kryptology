@@ -10,10 +10,10 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	dkg "github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/frost"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing"
-	bls "github.com/Ethernal-Tech/kryptology/kryptology/pkg/signatures/bls/bls_sig"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	dkg "github.com/Ethernal-Tech/kryptology/pkg/dkg/frost"
+	"github.com/Ethernal-Tech/kryptology/pkg/sharing"
+	bls "github.com/Ethernal-Tech/kryptology/pkg/signatures/bls/bls_sig"
 )
 
 const LIMIT = 4

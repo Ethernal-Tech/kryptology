@@ -13,11 +13,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	p256n "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/p256"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/p256/fp"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/p256/fq"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	p256n "github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/p256"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/p256/fp"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/p256/fq"
 )
 
 var oldP256InitOnce sync.Once

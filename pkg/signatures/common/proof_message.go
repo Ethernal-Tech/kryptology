@@ -9,7 +9,7 @@ package common
 import (
 	"io"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
 )
 
 // ProofMessage classifies how a message is presented in a proof

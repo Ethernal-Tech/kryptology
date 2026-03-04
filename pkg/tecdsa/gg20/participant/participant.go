@@ -13,12 +13,12 @@ import (
 	"math/big"
 	"reflect"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/paillier"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/gg20/dealer"
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/paillier"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/gg20/dealer"
 )
 
 // Participant is a tECDSA player that receives information from a trusted dealer

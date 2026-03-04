@@ -13,10 +13,10 @@ import (
 
 	"filippo.io/edwards25519"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	dkg "github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/gennaro"
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	dkg "github.com/Ethernal-Tech/kryptology/pkg/dkg/gennaro"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
 )
 
 const LIMIT = 4

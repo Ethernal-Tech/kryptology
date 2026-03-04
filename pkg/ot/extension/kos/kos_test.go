@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ot/base/simplest"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ot/ottest"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/ot/base/simplest"
+	"github.com/Ethernal-Tech/kryptology/pkg/ot/ottest"
 )
 
 func TestBinaryMult(t *testing.T) {

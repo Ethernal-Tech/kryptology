@@ -19,11 +19,11 @@ import (
 	"github.com/gtank/merlin"
 	"github.com/pkg/errors"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ot/base/simplest"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ot/extension/kos"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/dkg"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/zkp/schnorr"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/ot/base/simplest"
+	"github.com/Ethernal-Tech/kryptology/pkg/ot/extension/kos"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/dkg"
+	"github.com/Ethernal-Tech/kryptology/pkg/zkp/schnorr"
 )
 
 // Alice struct encoding Alice's state during one execution of the overall signing algorithm.

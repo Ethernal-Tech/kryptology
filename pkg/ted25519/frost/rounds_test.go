@@ -11,9 +11,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	dkg "github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/frost"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	dkg "github.com/Ethernal-Tech/kryptology/pkg/dkg/frost"
+	"github.com/Ethernal-Tech/kryptology/pkg/sharing"
 )
 
 var (

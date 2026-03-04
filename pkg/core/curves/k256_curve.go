@@ -15,11 +15,11 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	secp256k1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/k256"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/k256/fp"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/k256/fq"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	secp256k1 "github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/k256"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/k256/fp"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/k256/fq"
 )
 
 var oldK256Initonce sync.Once

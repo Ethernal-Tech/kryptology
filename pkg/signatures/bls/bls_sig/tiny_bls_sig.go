@@ -9,9 +9,9 @@ package bls_sig
 import (
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/bls12381"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/bls12381"
 )
 
 // Implement BLS signatures on the BLS12-381 curve

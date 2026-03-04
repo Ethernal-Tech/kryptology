@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
 )
 
 // dad constructs two polynomials - dA(x) and dD(x)

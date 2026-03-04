@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"math/big"
 
-	mod "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
+	mod "github.com/Ethernal-Tech/kryptology/pkg/core"
 )
 
 const ell = 128

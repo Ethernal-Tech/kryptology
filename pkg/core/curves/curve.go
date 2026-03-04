@@ -16,7 +16,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/bls12381"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/bls12381"
 )
 
 var (

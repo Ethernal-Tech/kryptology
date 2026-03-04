@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	crypto "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	crypto "github.com/Ethernal-Tech/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
 )
 
 // [spec] 10.2 and ProvePSF, VerifyPSF fig.15

@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/gg20/proof"
+	"github.com/Ethernal-Tech/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/gg20/proof"
 )
 
 // Round6FullBcast are the values to be broadcast to the other players

@@ -11,7 +11,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
 )
 
 // Signature is a BBS+ signature

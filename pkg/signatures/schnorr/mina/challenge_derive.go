@@ -9,7 +9,7 @@ package mina
 import (
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
 )
 
 type MinaTSchnorrHandler struct{}

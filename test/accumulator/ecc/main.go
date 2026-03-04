@@ -12,8 +12,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/accumulator"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/accumulator"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
 )
 
 func main() {

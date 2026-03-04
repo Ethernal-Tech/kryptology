@@ -11,30 +11,30 @@ Coinbase's advanced cryptography library
 Use the latest version of this library:
 
 ```$xslt
-go get github.com/Ethernal-Tech/kryptology/kryptology
+go get github.com/Ethernal-Tech/kryptology
 ```
 
 Pin a specific release of this library:
 
 ```$xslt
-go get github.com/Ethernal-Tech/kryptology/kryptology@v1.6.0
+go get github.com/Ethernal-Tech/kryptology@v1.6.0
 ```
 
 ## Documentation
 
-Public documentations can be found at https://pkg.go.dev/github.com/Ethernal-Tech/kryptology/kryptology
+Public documentations can be found at https://pkg.go.dev/github.com/Ethernal-Tech/kryptology
 
 To access the documentation of the local version, run `godoc -http=:6060` and open
 the following url in your browser.
 
-http://localhost:6060/pkg/github.com/Ethernal-Tech/kryptology/kryptology/
+http://localhost:6060/pkg/github.com/Ethernal-Tech/kryptology/
 
 ## Developer Setup
 
 **Prerequisites**: `golang 1.17`, `make`
 
 ```$xslt
-git clone git@github.com/Ethernal-Tech/kryptology/kryptology.git && make
+git clone git@github.com/Ethernal-Tech/kryptology.git && make
 ```
 
 ## Components

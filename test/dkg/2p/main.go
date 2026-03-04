@@ -19,8 +19,8 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/pkg/errors"
 
-	crypto "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/gennaro2p"
+	crypto "github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/dkg/gennaro2p"
 )
 
 const (

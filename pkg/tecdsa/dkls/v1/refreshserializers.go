@@ -6,11 +6,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/protocol"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ot/base/simplest"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/dkg"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/refresh"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/protocol"
+	"github.com/Ethernal-Tech/kryptology/pkg/ot/base/simplest"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/dkg"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/refresh"
 )
 
 func newRefreshProtocolMessage(payload []byte, round string, version uint) *protocol.Message {

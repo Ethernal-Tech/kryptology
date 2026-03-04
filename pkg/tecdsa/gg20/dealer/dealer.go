@@ -13,10 +13,10 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/paillier"
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	"github.com/Ethernal-Tech/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/paillier"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
 )
 
 // ParticipantData represents all data to be sent to a participant
