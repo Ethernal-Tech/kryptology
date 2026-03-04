@@ -10,7 +10,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
 )
 
 var k256FpInitonce sync.Once

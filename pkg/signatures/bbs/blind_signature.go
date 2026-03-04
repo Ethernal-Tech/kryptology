@@ -10,8 +10,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/signatures/common"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/signatures/common"
 )
 
 // BlindSignature is a BBS+ blind signature

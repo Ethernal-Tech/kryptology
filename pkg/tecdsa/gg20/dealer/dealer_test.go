@@ -14,9 +14,9 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	tt "github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	tt "github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
 )
 
 type proofParamsTest struct {

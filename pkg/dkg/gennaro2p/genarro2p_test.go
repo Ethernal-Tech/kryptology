@@ -15,8 +15,8 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
 )
 
 var (

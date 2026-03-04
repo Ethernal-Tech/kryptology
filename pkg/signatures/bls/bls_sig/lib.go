@@ -15,11 +15,11 @@ import (
 
 	"golang.org/x/crypto/hkdf"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/bls12381"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/bls12381"
+	"github.com/Ethernal-Tech/kryptology/pkg/sharing"
 )
 
 // Secret key in Fr

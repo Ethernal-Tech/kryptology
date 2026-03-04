@@ -5,8 +5,8 @@ package ottest
 import (
 	"github.com/pkg/errors"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ot/base/simplest"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/ot/base/simplest"
 )
 
 // RunSimplestOT is a utility function used _only_ during various tests.

@@ -3,9 +3,9 @@ package k256
 import (
 	"sync"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/k256/fp"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/k256/fp"
 )
 
 var (

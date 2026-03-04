@@ -9,8 +9,8 @@ package gennaro
 import (
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	"github.com/Ethernal-Tech/kryptology/internal"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
 )
 
 // Round3Bcast contains values that will be broadcast to other participants.

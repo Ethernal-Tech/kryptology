@@ -11,8 +11,8 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/bls12381"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/bls12381"
 )
 
 var bls12381g2Initonce sync.Once

@@ -5,11 +5,11 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/protocol"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/dkg"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/refresh"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/sign"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/protocol"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/dkg"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/refresh"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/sign"
 )
 
 // AliceDkg DKLS DKG implementation that satisfies the protocol iterator interface.

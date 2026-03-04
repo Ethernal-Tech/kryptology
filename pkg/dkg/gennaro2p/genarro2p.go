@@ -13,11 +13,11 @@ import (
 	"crypto/elliptic"
 	"fmt"
 
-	v1 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing/v1"
+	v1 "github.com/Ethernal-Tech/kryptology/pkg/sharing/v1"
 	"github.com/pkg/errors"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/gennaro"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/dkg/gennaro"
 )
 
 const threshold = 2

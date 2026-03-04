@@ -7,8 +7,8 @@
 package mina
 
 import (
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/pasta/fp"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/pasta/fq"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/pasta/fp"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/pasta/fq"
 )
 
 // Handles the packing of bits and fields according to Mina spec

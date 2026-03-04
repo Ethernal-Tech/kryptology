@@ -16,7 +16,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/core"
 )
 
 func BenchmarkP256(b *testing.B) {

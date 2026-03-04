@@ -9,7 +9,7 @@ package participant
 import (
 	"math/big"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/core"
 )
 
 // Round4Bcast are the values to be broadcast to the other players at the conclusion

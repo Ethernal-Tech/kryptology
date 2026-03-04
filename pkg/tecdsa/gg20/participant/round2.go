@@ -10,9 +10,9 @@ import (
 	"encoding/json"
 	"math/big"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/paillier"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/gg20/proof"
+	"github.com/Ethernal-Tech/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/pkg/paillier"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/gg20/proof"
 )
 
 // P2PSend is all the values that need to be sent to each player

@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/p256"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/p256/fp"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/p256"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/p256/fp"
 )
 
 func TestP256PointArithmetic_Double(t *testing.T) {

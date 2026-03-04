@@ -9,8 +9,8 @@ package mina
 import (
 	"fmt"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/pasta/fp"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/pasta/fq"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/pasta/fp"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves/native/pasta/fq"
 )
 
 // Signature is a Mina compatible signature either for payment or delegation

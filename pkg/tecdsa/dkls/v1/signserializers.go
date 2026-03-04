@@ -6,9 +6,9 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/protocol"
-	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/dkls/v1/sign"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/pkg/core/protocol"
+	"github.com/Ethernal-Tech/kryptology/pkg/tecdsa/dkls/v1/sign"
 )
 
 func newSignProtocolMessage(payload []byte, round string, version uint) *protocol.Message {
