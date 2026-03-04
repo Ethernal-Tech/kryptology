@@ -15,9 +15,9 @@ import (
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/kryptology/internal"
-	crypto "github.com/coinbase/kryptology/pkg/core"
-	curves2 "github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
+	crypto "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
+	curves2 "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
 )
 
 var testPrimes = []*big.Int{

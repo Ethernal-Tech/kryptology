@@ -1,4 +1,4 @@
-module github.com/coinbase/kryptology
+module github.com/Ethernal-Tech/kryptology/kryptology
 
 go 1.22
 

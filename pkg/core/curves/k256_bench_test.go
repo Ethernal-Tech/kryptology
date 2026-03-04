@@ -9,8 +9,8 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 
-	"github.com/coinbase/kryptology/internal"
-	mod "github.com/coinbase/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
+	mod "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
 )
 
 func BenchmarkK256(b *testing.B) {

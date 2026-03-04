@@ -12,7 +12,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
 )
 
 type Schnorr struct {

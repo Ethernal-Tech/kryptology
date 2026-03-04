@@ -14,7 +14,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
 )
 
 type (

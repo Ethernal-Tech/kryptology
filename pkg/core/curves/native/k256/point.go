@@ -3,9 +3,9 @@ package k256
 import (
 	"sync"
 
-	"github.com/coinbase/kryptology/internal"
-	"github.com/coinbase/kryptology/pkg/core/curves/native"
-	"github.com/coinbase/kryptology/pkg/core/curves/native/k256/fp"
+	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves/native/k256/fp"
 )
 
 var (

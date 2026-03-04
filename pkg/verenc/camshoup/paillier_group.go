@@ -16,9 +16,9 @@ import (
 
 	"git.sr.ht/~sircmpwn/go-bare"
 
-	"github.com/coinbase/kryptology/internal"
-	crypto "github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/paillier"
+	"github.com/Ethernal-Tech/kryptology/kryptology/internal"
+	crypto "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/paillier"
 )
 
 // PaillierGroup holds public values for Verifiable Encryption
