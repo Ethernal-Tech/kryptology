@@ -5,9 +5,9 @@
 //
 
 // Package proof contains the following implementations
-//  - proof of discrete logarithm (PDL) subprotocol from [spec] §8
-//  - multiplicative-to-additive (MtA) subprotocol from [spec] §7
-//  - proof of knowledge of a discrete log modulo a composite (fig 16), i.e., ProveCompositeDL and VerifyCompositeDL
+//   - proof of discrete logarithm (PDL) subprotocol from [spec] §8
+//   - multiplicative-to-additive (MtA) subprotocol from [spec] §7
+//   - proof of knowledge of a discrete log modulo a composite (fig 16), i.e., ProveCompositeDL and VerifyCompositeDL
 package proof
 
 import (
@@ -16,10 +16,10 @@ import (
 	"fmt"
 	"math/big"
 
-	crypto "github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	paillier "github.com/coinbase/kryptology/pkg/paillier"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/dealer"
+	crypto "github.com/Ethernal-Tech/kryptology/kryptology/pkg/core"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	paillier "github.com/Ethernal-Tech/kryptology/kryptology/pkg/paillier"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/tecdsa/gg20/dealer"
 )
 
 // PdlProofParams encapsulates the parameters for ProvePDL in

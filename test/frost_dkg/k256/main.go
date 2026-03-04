@@ -16,9 +16,9 @@ import (
 
 	"github.com/btcsuite/btcd/btcec/v2"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	dkg "github.com/coinbase/kryptology/pkg/dkg/frost"
-	"github.com/coinbase/kryptology/pkg/sharing"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	dkg "github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/frost"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing"
 )
 
 const LIMIT = 4

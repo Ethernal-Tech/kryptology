@@ -10,11 +10,11 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	dkg "github.com/coinbase/kryptology/pkg/dkg/frost"
-	"github.com/coinbase/kryptology/pkg/sharing"
-	"github.com/coinbase/kryptology/pkg/signatures/schnorr/mina"
-	"github.com/coinbase/kryptology/pkg/ted25519/frost"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/core/curves"
+	dkg "github.com/Ethernal-Tech/kryptology/kryptology/pkg/dkg/frost"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/sharing"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/signatures/schnorr/mina"
+	"github.com/Ethernal-Tech/kryptology/kryptology/pkg/ted25519/frost"
 )
 
 const LIMIT = 4
